@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google advanced</title>
+        <style>
+            @media (min-width:750px) {
+                form{
+                margin-left: 50px;
+            }
+            .search {
+                width:70%;
+                margin-left:15px;
+                margin-top: 15px;
+                height:25px;
+                padding:0px 10px;
+            }
+            #sub{
+                border-radius:3px;
+                border: 1px solid #3079ed;
+                width:160px;
+                height:30px;
+                background-color: #4d90fe;
+                color:#fff;
+                display: inline;
+            }
+        }
+            @media (max-width:750px) {
+                
+            .search{
+                width:50%;
+                margin-left:15px;
+                margin-top: 15px;
+                height:25px;
+                padding:0px 10px;
+            }
+            #nordiv{
+                display: inline-block;
+                background-color: #fff;
+                height: 30px;
+                width: 50%;
+            }
+            }
+            
+            body{
+                background-color:#fff;
+                margin-left: 10px;
+            }
+            img{
+                margin-left:10px  ;
+                margin-top: 15px;
+                margin-bottom: 30px;
+                width:92px;
+                height: 30px;
+            }
+            #top {
+                position: absolute;
+                right: 0 ;
+                top:0;
+                margin: 20px;
+            }
+            a {
+                margin: 5px;
+                color: #000;
+                text-decoration-line: none;
+            }
+            a:hover {
+                text-decoration-line: underline;
+            }
+            h1{
+                color:orangered;
+                margin-left: 40px;
+                font-size: 25px;
+            }
+            
+            #sub{
+                border-radius:3px;
+                border: 1px solid #3079ed;
+                width:160px;
+                height:30px;
+                background-color: #4d90fe;
+                color:#fff;
+                display: inline;
+            }
+            h2{
+                margin-left: 40px ;
+                font:20px solid;
+            }
+            p{
+                display: inline;
+                color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html"><img src="googlelogo.png"></a>
+        <a href="index.html" id="top">google</a>
+        <h1>Advanced Search</h1><br><br>
+        <h2>Find pages with ...</h2><br>
+        <form action="https://google/search">
+            all these words:<input type="text" name="as_q" class="search" style="margin-left: 80px;"> <br>
+            this exact word or phrase:<input type="text" name="as_oq" class="search" ><br>
+            any of these words:<input type="text" name="as_epq" class="search" style="margin-left: 55px;"><br>
+            none of these words:<input type="text" name="as_eq" class="search" style="margin-left: 47px;"><br><br>
+            <p>...........</p><div id="nordiv"></div><input type="submit" value="Advanced Search" id="sub">
+        </form>
+    </body>
+</html>
